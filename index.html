@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
    <style>
      body {
-        padding-top.hidden-phone: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       } 
     </style>
  </head>
@@ -29,19 +29,36 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+	      <li><a href="blog.html">Blog</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="hireme.html">Hire Me!</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
-    </div>
+    </div><!--navbar-->
 
-    <div class="container">
+    <!--Left Column-->
+    <div class="container-fluid">
+      <div class="row-fluid">    
+        <div class="span3">
+            <div class="well sidebar-nav">
+              <div class="thumbnail">
+                <center><img data-src="assets/gorge.jpg" alt=""></center>
+              </div>
+            </div><!--well-->
+          </div><!--span-->
+          <!--End of left column-->
 
-      <h1>Welcome to my website! </h1>
-      <p>This is currently a work in progress.<br>Email me at rsullivan@scu.edu and check back soon.</p>
+          <!--Main body-->
+          <div class ="span9">
+          <h1>Welcome to my website! </h1>
+          <p>This is currently a work in progress.<br>Email me at rsullivan@scu.edu and check back soon.</p>
 
+          <h3>About Me </h3>
+          <p>I'm pretty awesome. You should hire me.</p>
+          </div>
+      </div>
     </div> <!-- /container -->
 
     <!-- Le javascript

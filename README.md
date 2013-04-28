@@ -1,2 +1,1 @@
-Work in progress personal website
-Using Bootstrap
+Work in progress personal website using Bootstrap

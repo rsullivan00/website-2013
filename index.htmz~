@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Rick Sullivan</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Personal Website">
+   <meta name="author" content="Rick Sullivan">
+
+   <!-- Styles -->
+   <link href="css/bootstrap.min.css" rel ="stylesheet">
+   <link href="css/font-awesome.min.css" rel="stylesheet">
+   <style>
+     body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      } 
+    </style>
+
+    <!-- Icons -->
+    <!--<link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+   --> 
+ </head>
+   
+ <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          
+          <a class="brand" href="#">Rick Sullivan</a>
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+	          <li><a href="blog.html">Blog</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="hireme.html">Hire Me!</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div><!--navbar-->
+
+    <!--Left Column-->
+    <div class="container-fluid">
+      <div class="row-fluid">    
+        <div class="span2">
+        </div><!--span-->
+        <!--/Left Column-->
+
+          <!--Main body-->
+          <div class ="row-fluid">
+            <div class ="span8">
+              <div class ="row-fluid">
+                <div class ="span3">
+                  <center><img src="img/portrait.jpg"></center>
+                </div>
+                <div class ="span9">
+                <h1>Welcome to my website! </h1>
+                <p>This is currently a work in progress. Check back soon to see the finished site.</p>
+                <hr>
+                <!--Contact-->
+                <h4>Contact Me:</h4>
+                  <h4><a href="mailto:rick@ricksullivan.net" target="_blank">
+                  <!--<i class="icon-envelope"></i>-->E-Mail</a></h4> 
+                   
+                  <h4><a href="http://www.github.com/Rsullivan00" target="_blank">
+                  <!--<i class="icon-github"></i>-->Github</a></h4>
+
+                  <h4><a href="http://www.facebook.com/rick.sullivan.10485" target="_blank">
+                  <!--<i class="icon-facebook-sign"></i>-->Facebook</a></h4>
+                  
+                  <h4><a href="https://twitter.com/rsullivan00" target="_blank">
+                  <!--<i class="icon-twitter"></i>-->Twitter</a></h4>
+                  
+                  <h4><a href="http://www.linkedin.com/in/rsullivan00" target="_blank">
+                  <!--<i class="icon-linkedin-sign"></i>-->Linked In</a></h4>
+                
+                </div>
+              </div>
+
+              <hr>
+              <div class="row-fluid">
+                <h2>About Me </h2>
+                <p>Hi, my name is Rick. I like programming, math, soccer, 
+                   and cheese fondue. I'm a sophomore at Santa Clara 
+                   University, majoring in Computer Science and Engineering 
+                   with a Math minor.</p>
+              </div>
+          </div>
+        </div>
+
+      </div> <!-- /container -->
+
+      <!-- footer -->
+      <footer>
+      <!--Include the below only if the page is long-->
+      <!--<center><p><a href="index.html">Home</a> | <a href="blog.html">Blog</a> | <a href="projects.html">Projects</a> | <a href="hireme.html">Hire Me</a></p></center>-->
+      <center><p>
+          <a href="mailto:rick@ricksullivan.net" target="_blank">
+          <!--<i class="icon-envelope"></i>-->E-Mail</a> |
+          <a href="http://www.facebook.com/rick.sullivan.10485" target="_blank">
+          <!--<i class="icon-facebook-sign"></i>-->Facebook</a> | 
+          <a href="https://twitter.com/rsullivan00" target="_blank">
+          <!--<i class="icon-twitter"></i>-->Twitter</a> | 
+          <a href="http://www.linkedin.com/in/rsullivan00" target="_blank">
+          <!--<i class="icon-linkedin-sign"></i>-->Linked In</a> | 
+          <a href="http://www.github.com/Rsullivan00" target="_blank">
+          <!--<i class="icon-github"></i>-->Github</a>
+      </p></center>
+      <center><p>&copy; Rick Sullivan 2013</p></center>
+      </footer>
+      
+
+    <!-- Le javascript 
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>  
+ </body>
+</html>
+

@@ -8,17 +8,23 @@
    <meta name="author" content="Rick Sullivan">
 
    <!-- Styles -->
-   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <link href="css/font-awesome.min.css" rel="stylesheet">
-    
+   <script src="js/jquery.js"></script>
+   <script src="js/bootstrap.min.js"></script>  
+   <link href="css/bootstrap.min.css" rel ="stylesheet">
+   <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
    <style>
      body {
         padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
       } 
     </style>
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/glyphicons-halflings.png">
+ 
  </head>
    
  <body>
+    <!-- Navbar -->
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -35,61 +41,57 @@
 	          <li><a href="index.html">Home</a></li>
 	          <li><a href="blog.html">Blog</a></li>
               <li class="active"><a href="#">Projects</a></li>
-              <li><a href="hireme.html">Hire Me!</a></li>
+              <!--<li><a href="hireme.html">Hire Me!</a></li>-->
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div><!--navbar-->
 
-    <!--Left Column-->
-    <div class="container-fluid">
-      <div class="row-fluid">    
-        <div class="span2">
-          </div><!--span-->
-          <!--End of left column-->
+<div class="container">
 
-          <!--Main body-->
-          <div class ="span8">
-          <h1>Projects </h1>
-          <h4>I will post projects as I complete them. 
-              I spend some of my free time learning more about programming
-              through <a href="http://www.projecteuler.net" target="_blank">Project Euler</a>, 
-              Reddit's <a href="http://www.reddit.com/r/dailyprogrammer" target="_blank">Daily Programmer</a>, 
-              and some others (Google Code Jam, <a href="http://www.pythonchallenge.com" target="_blank">Python Challenge</a>, etc). Most of this work can be found on my <a href="http://www.github.com/Rsullivan00" target="_blank">Github</a> account.</h4>
-          <h3>Current Projects:</h3>
-          <h4>
-          <li>Improving this website.</li>
-          <li>Getting an internship.</li>
-          <li>Reading The Pragmatic Programmer.</li>
-          <li>Curing cancer.</li>
-          <li>Solving all of the <a href="http://en.wikipedia.org/wiki/Millennium_Prize_Problems" target="_blank">Millenium Prize Problems</a> and getting rich.</li>
-          </h4>
-          <hr>
+  <!--Main body-->
+  <div class="row-fluid">    
+      <h1>Projects </h1>
+      <h4>I will post projects as I complete them. 
+          I spend some of my free time learning more about programming
+          through <a href="http://www.projecteuler.net" target="_blank">Project Euler</a>, 
+          Reddit's <a href="http://www.reddit.com/r/dailyprogrammer" target="_blank">Daily Programmer</a>, 
+          and some others (Google Code Jam, <a href="http://www.pythonchallenge.com" target="_blank">Python Challenge</a>, etc). Most of this work can be found on my <a href="http://www.github.com/Rsullivan00" target="_blank">Github</a> account.</h4>
+      <h3>Current Projects:</h3>
+      <h4>
+      <li>Improving this website.</li>
+      <li><strike>Getting an internship.</strike> <i class="icon-ok"></i> I'm excited to be working at <a href="http://giftango.com" target="_blank">Giftango</a> this summer!</li>
+      <li><strike>Reading <em>The Pragmatic Programmer</em>.</strike><i class="icon-ok"></i> Finished, but this is definitely a book I'll want to reread in a few years.</li>
+      <li>Curing cancer.</li>
+      <li>Solving all of the <a href="http://en.wikipedia.org/wiki/Millennium_Prize_Problems" target="_blank">Millenium Prize Problems</a> and getting rich.</li>
+      </h4>
+      <hr>
 
-          </div>
-        </div>
+  </div>
 
-      </div> <!-- /container -->
+</div> <!-- /container -->
 
-      <!-- footer -->
-      <footer>
-      <!--Include the below only if the page is long-->
-      <!--<center><p><a href="index.html">Home</a> | <a href="blog.html">Blog</a> | <a href="projects.html">Projects</a> | <a href="hireme.html">Hire Me</a></p></center>-->
-      <center><p>
-          <a href="mailto:rick@ricksullivan.net" target="_blank">
-          <!--<i class="icon-envelope"></i>-->E-Mail</a> |
-          <a href="http://www.facebook.com/rick.sullivan.10485" target="_blank">
-          <!--<i class="icon-facebook-sign"></i>-->Facebook</a> | 
-          <a href="https://twitter.com/rsullivan00" target="_blank">
-          <!--<i class="icon-twitter"></i>-->Twitter</a> | 
-          <a href="http://www.linkedin.com/in/rsullivan00" target="_blank">
-          <!--<i class="icon-linkedin-sign"></i>-->Linked In</a> | 
-          <a href="http://www.github.com/Rsullivan00" target="_blank">
-          <!--<i class="icon-github"></i>-->Github</a>
-      </p></center>
-      <center><p>&copy; Rick Sullivan 2013</p></center>
-      </footer>
+  <!-- footer -->
+  <footer>
+  <center><p>
+      <a href="mailto:rick@ricksullivan.net" target="_blank">
+      <i class="icon-large icon-envelope"></i></a> *
+      <a href="http://www.github.com/Rsullivan00" target="_blank">
+      <i class="icon-large icon-github"></i></a>    *
+      <a href="http://www.facebook.com/rick.sullivan.10485" target="_blank">
+      <i class="icon-large icon-facebook"></i></a> * 
+      <a href="https://twitter.com/rsullivan00" target="_blank">
+      <i class="icon-large icon-twitter"></i></a> * 
+      <a href="http://www.linkedin.com/in/rsullivan00" target="_blank">
+      <i class="icon-large icon-linked-in"></i></a>  
+
+  </p></center>
+  <center><p>&copy; Rick Sullivan 2013</p>
+          <p>Icons from <a href="http://www.glyphicons.com" target="_blank">glyphicons.com</a></p>
+  </center>
+  
+  </footer>
 
 
     <!-- Le javascript
